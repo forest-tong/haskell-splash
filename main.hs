@@ -1,7 +1,7 @@
 module Main where
 
-import Binary
+import Part1
 
 main :: IO()
 main = do
-    print $ binarySequences 3
+    print $ myMap (+1) [1, 2, 3]
