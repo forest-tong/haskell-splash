@@ -1,3 +1,5 @@
+module Binary where
+
 -- Form the list of all binary sequences of length n, in order.
 binarySequences :: Int -> [[Int]]
 binarySequences 0 = [[]]

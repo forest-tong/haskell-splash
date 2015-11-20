@@ -1,3 +1,5 @@
+module Zip where
+
 -- Form the list l = [[1], [1, 2], [1, 2, 3], [1, 2, 3, 4], ...] in two ways.
 
 -- First, using zipWith recursively.

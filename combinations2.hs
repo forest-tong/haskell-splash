@@ -1,3 +1,5 @@
+module Combinations2 where
+
 -- Another implementation: filtering out duplicates
 -- noDuplicates [1, 2, 3] = True
 -- noDuplicates [1, 1, 2] = False

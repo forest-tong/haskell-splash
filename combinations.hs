@@ -1,3 +1,5 @@
+module Combinations where
+
 -- Exercises that might be useful for the eventual implementation of combinations
 -- makeLists [1, 2, 3] = [[1], [2], [3]]
 makeLists :: [Int] -> [[Int]]
