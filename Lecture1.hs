@@ -1,5 +1,7 @@
 module Part1 where
 
-myMap :: (a -> b) -> [a] -> [b]
-myMap f [] = []
-myMap f (x:xs) = (f x):(myMap f xs)
+addOne :: Int -> Int
+addOne x = x + 1
+
+add :: Int -> Int -> Int
+add x y = x + y
