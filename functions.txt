@@ -1,0 +1,16 @@
+head, init, last, tail
+tails
+reverse
+infinite lists
+take
+takeWhile/dropWhile
+list comprehensions
+*iterate*
+repeat
+words/unwords, lines/unlines
+
+Lab 2:
+ADT: Maybe, Either
+"real world stuff", e.g., Person data type
+
+
