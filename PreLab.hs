@@ -17,3 +17,8 @@ power :: Int -> Int -> Int
 -- Calculate 1 + x + x^2 + x^3 + ... + x^n.
 -- (Look up iterate.)
 geometricSeries :: Int -> Int -> Int
+
+-- Exercise 5
+-- Reverse all the words in a sentence.
+-- (Look up words and unwords.)
+reverseWords :: String -> String
