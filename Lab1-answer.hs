@@ -27,11 +27,9 @@ applyFn :: (a -> b -> c) -> (a, b) -> c
 -- Solution 2b, using uncurry
 myZipWith fn listA listB = map (uncurry fn) (zip listA listB)
 
--- without using uncurry
+-- Solution 2b, without using uncurry
 applyFn :: (a -> b -> c) -> (a, b) -> c
 applyFn fn (a, b) = fn a b
-
--- without using uncurry
 myZipWith fn listA listB = map (applyFn fn) (zip listA listB)
 
 

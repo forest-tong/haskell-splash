@@ -32,6 +32,7 @@ divide x y = Just (x/y)
 -- Define a data type called PersonName that consists of firstName,
 -- middleName, and lastName, where any of the names might not exist.
 
+
 -- Problem 5
 -- nameString is the concatenation of all the existing names of a PersonName,
 -- or Nothing if none of the names exist.
