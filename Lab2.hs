@@ -1,3 +1,6 @@
+module Lab2 where
+
+
 -- Problem 1
 -- Reverse a list.
 reverse' :: [a] -> [a]
@@ -13,15 +16,18 @@ foldMap :: (a -> b) -> [a] -> [b]
 -- (Look up elem if you don't know what it does!)
 elem' :: (Eq a) => a -> [a] -> Bool  
 
--- Exercise 4
+
+-- Problem 4
 -- Calculate 1 + x + x^2 + x^3 + ... + x^n.
 -- (Look up iterate.)
 geometricSeries :: Int -> Int -> Int
 
--- Exercise 5
+
+-- Problem 5
 -- Reverse all the words in a sentence.
 -- (Look up words and unwords.)
 reverseWords :: String -> String
+
 
 -- The built-in algebraic data type "Maybe" represents values that might exist.
 -- Maybe is defined as follows:
@@ -35,11 +41,11 @@ divide x 0 = Nothing
 divide x y = Just (x/y)
 
 
--- Problem 4
+-- Problem 6
 -- Define a data type called PersonName that consists of firstName,
 -- middleName, and lastName, where any of the names might not exist.
 
 
--- Problem 5
+-- Problem 7
 -- nameString is the concatenation of all the existing names of a PersonName,
 -- or Nothing if none of the names exist.

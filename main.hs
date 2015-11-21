@@ -1,7 +1,8 @@
 module Main where
 
-import Part1
+import Lab1
+import Lab2
 
 main :: IO()
 main = do
-    print $ myMap (+1) [1, 2, 3]
+    print $  -- put what you want to print out here!
