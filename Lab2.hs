@@ -13,6 +13,16 @@ foldMap :: (a -> b) -> [a] -> [b]
 -- (Look up elem if you don't know what it does!)
 elem' :: (Eq a) => a -> [a] -> Bool  
 
+-- Exercise 4
+-- Calculate 1 + x + x^2 + x^3 + ... + x^n.
+-- (Look up iterate.)
+geometricSeries :: Int -> Int -> Int
+
+-- Exercise 5
+-- Reverse all the words in a sentence.
+-- (Look up words and unwords.)
+reverseWords :: String -> String
+
 -- The built-in algebraic data type "Maybe" represents values that might exist.
 -- Maybe is defined as follows:
 -- data Maybe a = Nothing | Just a
