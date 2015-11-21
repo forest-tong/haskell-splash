@@ -29,6 +29,9 @@ geometricSeries :: Int -> Int -> Int
 reverseWords :: String -> String
 
 
+
+-- Algebraic data types
+
 -- The built-in algebraic data type "Maybe" represents values that might exist.
 -- Maybe is defined as follows:
 -- data Maybe a = Nothing | Just a

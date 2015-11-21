@@ -1,3 +1,5 @@
+module Lab1 where
+
 -- Exercise 0. Define multiply.
 multiply :: Int -> Int -> Int
 
@@ -5,8 +7,12 @@ multiply :: Int -> Int -> Int
 incrementAll2 :: [[Int]] -> [[Int]]
 
 
--- Exercise 2a. Define zip using zipWith
+-- Exercise 2a. Define zip using zipWith. zip is a specific
+--				case of zipWith (as in, zipWith is a more
+--				general form of zip)
 myZip :: (a -> b -> c) -> [a] -> [b] -> [c]
+
+-- hint: define a helper function formTuple
 formTuple :: a -> b -> (a, b)
 
 
@@ -18,7 +24,8 @@ myZipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
 applyFn :: (a -> b -> c) -> (a, b) -> c
 
 
--- Exercise 3a. Implement any using filter. 
+-- Exercise 3a. Implement any using filter. Look up any
+--				on hoogle to learn its functionality. 
 -- hint: you may find the function null useful
 myAny :: (a -> Bool) -> [a] -> Bool
 
@@ -26,17 +33,21 @@ myAny :: (a -> Bool) -> [a] -> Bool
 -- Exerise 3b. Implement elem using any
 myElem :: Eq a => a -> [a] -> Bool
 
--- Exercise 1
+
+
+-- Additional Exercises
+
+-- Exercise 4
 -- Get the second element of a list.
 -- (Look up head and last.)
-snd :: [a] -> a
+snd' :: [a] -> a
 
--- Exercise 2
+-- Exercise 5
 -- Get the list [1, 2, ..., n].
 -- (Look up take.)
 firstN :: Int -> [Int]
 
--- Exercise 3
+-- Exercise 6
 -- Calculate a^b.
 -- (Look up repeat.)
 power :: Int -> Int -> Int
